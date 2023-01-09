@@ -4,12 +4,11 @@ Have you ever used javascript’s [Proxy](https://developer.mozilla.org/en-US/do
 
 Full code is [here](https://github.com/kingnebby/js-proxy-example).
 
-- [Intro to Using Javascript Proxy: Learn to Optimize a Logger](#intro-to-using-javascript-proxy-learn-to-optimize-a-logger)
-  - [Create a Simple Logger](#create-a-simple-logger)
-  - [Expose the Logger’s Weakness](#expose-the-loggers-weakness)
-  - [Create The Proxy Wrapper](#create-the-proxy-wrapper)
-  - [Use the FastLogger](#use-the-fastlogger)
-  - [Conclusion](#conclusion)
+- [Create a Simple Logger](#create-a-simple-logger)
+- [Expose the Logger’s Weakness](#expose-the-loggers-weakness)
+- [Create The Proxy Wrapper](#create-the-proxy-wrapper)
+- [Use the FastLogger](#use-the-fastlogger)
+- [Conclusion](#conclusion)
 
 ## Create a Simple Logger
 
