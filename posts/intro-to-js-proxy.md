@@ -2,6 +2,8 @@
 
 Have you ever used javascript’s [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) class? I’m going to show you how you can use it wrap objects and optimize a mock logging library.
 
+Full code is [here](https://github.com/kingnebby/js-proxy-example).
+
 - [Intro to Using Javascript Proxy: Learn to Optimize a Logger](#intro-to-using-javascript-proxy-learn-to-optimize-a-logger)
   - [Create a Simple Logger](#create-a-simple-logger)
   - [Expose the Logger’s Weakness](#expose-the-loggers-weakness)
