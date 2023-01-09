@@ -1,5 +1,7 @@
 # Intro to Using Javascript Proxy: Learn to Optimize a Logger
 
+Have you ever used javascript’s [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) class? I’m going to show you how you can use it wrap objects and optimize a mock logging library.
+
 - [Intro to Using Javascript Proxy: Learn to Optimize a Logger](#intro-to-using-javascript-proxy-learn-to-optimize-a-logger)
   - [Create a Simple Logger](#create-a-simple-logger)
   - [Expose the Logger’s Weakness](#expose-the-loggers-weakness)
@@ -9,7 +11,7 @@
 
 ## Create a Simple Logger
 
-Create a logger resembling version 2 of the npm logging library, winston. This logger has a performance flaw that we can resolve with a Proxy.
+Create a logger resembling the popular logging library [winston](https://www.npmjs.com/package/winston). Winston v2 had a performance flaw (which has since been fixed in v3) that we can resolve with a Proxy.
 
 ```tsx
 // Logger.ts
@@ -47,7 +49,7 @@ export class Logger {
 }
 ```
 
-The key thing to note here is that the data being logged in the `info` and `debug` methods is **first** serialized then logged. This means that if we pepper our code base with thousands of debug statements logging our requests, we're expose ourselves to a serious performance impact.
+The key thing to note here is that the data being logged in the `info` and `debug` methods is **first** serialized **then** logged. This means that if we pepper our code base with thousands of debug statements logging large objects like requests, then we're exposing ourselves to a seriously sneaky performance impact.
 
 ## Expose the Logger’s Weakness
 
@@ -89,6 +91,7 @@ const proxyHandler: ProxyHandler<Logger> = {
         return () => {};
       }
     }
+    // by default always return the original property being accessed!
     return target[propName];
   },
 };
@@ -109,7 +112,7 @@ The ProxyHandler is an object with a `get` method that will be called any time a
 
 In the `get` method, we first check if this is a call to a log method. Then we check if the `getLogLevelOfMethod()` is less than our currently configured `target.level`. If so, instead of calling the logger’s log method, for example the `debug` method, we simply return a no-op method.
 
-This ensures that we skip the `Logger` function to serialize the crazy large object.
+This ensures that we skip the `Logger` function to serialize the crazy large object. By default always return the original property being accessed!
 
 ## Use the FastLogger
 
