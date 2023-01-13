@@ -1,10 +1,18 @@
 # Bringing Business and Agile Together
 
+TODO:
+
+- break this up over 3 posts. Tie in agile more directly into each step.
+
+There are at least 3 key factors that can help successfully bring business and agile together.
+
 - Choose a focus, and then **stay focused** for 1-3 months.
 - Suspiciously **measure** that choice with both outcome and output metrics.
 - Listen to the measurement data and **adapt** with an open mind to **try new things**.
 
-There are at least 3 key factors that can help successfully bring business and agile together.
+The simple agile loop of Build, Measure, and Learn has been scaled to SAFe to help large businesses with many teams. But SAFe can be way more than you need. You already likely have OKRs or some other set of frameworks.
+
+In this article we will use some anecdotes to look at how we can apply the Build, Measure, and Learn principle in practical ways for companies trying to organize work across many teams.
 
 - [Choose a Focus and Stay Focused for Short Time Intervals](#choose-a-focus-and-stay-focused-for-short-time-intervals)
   - [Staying focused with sub-goals and reiteration](#staying-focused-with-sub-goals-and-reiteration)
@@ -19,9 +27,9 @@ There are at least 3 key factors that can help successfully bring business and a
 
 ## Choose a Focus and Stay Focused for Short Time Intervals
 
-The company had established their yearly Business Goals and Objectives. 5 bold statements that we all agreed to and, more-or-less, we agreed on how to accomplish them. However, by the end of January the 1:1 with my manager was all too familiar. "Oh, add we need infrastructure. Oh, and we need better QA. Oh, add we need to think about a couple of new dashboards." These were all good ideas, but they didn't directly roll up to the business goals. Worse yet, while the business was focused on features, the engineers were focused on quality as a distinctly separate goal. Unsurprisingly, when the deadlines approached, quality was deemed out of scope.
+The company had established their yearly Business Goals and Objectives. 5 bold statements that we all agreed to and, more-or-less, we agreed on how to build them. However, by the end of January the 1:1 with my manager was all too familiar. "Oh, and we need to build more infrastructure. Oh, and we need to build better QA. Oh, and we need to think about building a couple of new dashboards." These were all good ideas, but they didn't directly roll up to the business goals. Worse yet, while the business was focused on features, the engineering was focused on quality as a distinctly separate goal. Unsurprisingly, when the deadlines approached, quality was deemed out of scope and many of the engineers efforts were shelved, half implemented.
 
-Of all the things that could be said about this reoccurring scene, think about the impact of focus. The worst thing we can do as leaders and managers is continue to say "and one more thing". Perhaps one reason we do this is that while we wait in our ivory towers for our teams to accomplish the goals, we dream of new futures. Or perhaps, in an attempt to help our teams we do our own solutioning and excitedly share it with the team, hoping it will inspire them. With yearly goals, we have way too much time to fall into this trap.
+Of all the things that could be said about this reoccurring scene, think about the impact of focus. The worst thing we can do as leaders and managers is continue to say "just one more thing". We're not being clever like Columbo, we're scope creeping like Table 5 who orders something else every time we refill their water. Perhaps one reason we do this is that while we wait in our ivory towers for our teams to accomplish the goals, we dream of new futures. Or perhaps, in an attempt to help our teams we do our own solutioning and excitedly share it with the team, hoping it will inspire them. No matter how well intentioned it's still just a distraction.
 
 ### Staying focused with sub-goals and reiteration
 

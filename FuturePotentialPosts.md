@@ -1,7 +1,6 @@
 # Future Potential Posts
 
 - [Don't let agile trick you into not having a plan](#dont-let-agile-trick-you-into-not-having-a-plan)
-- [Measurement: Curse or Cure? If we keep the act of measuring in its proper place, it can be our greatest ally](#measurement-curse-or-cure-if-we-keep-the-act-of-measuring-in-its-proper-place-it-can-be-our-greatest-ally)
 - [Measurement: Is your Org behaving the way you want?](#measurement-is-your-org-behaving-the-way-you-want)
 - [The Enableathon: Maximize effort and output](#the-enableathon-maximize-effort-and-output)
 - [Never Death March Again](#never-death-march-again)
@@ -16,15 +15,6 @@ Reference:
 <https://medium.com/@dan.villa/planning-for-agile-ef913f8ee58d>
 
 There's more there too that I could revamp.
-
-## Measurement: Curse or Cure? If we keep the act of measuring in its proper place, it can be our greatest ally
-
-- You’re doing it wrong when the means become the ends.
-- Measure outcomes *and* outputs, but never mindlessly.
-- DORA metrics and OKRs can be a curse or a cure.
-- Investments into outcome-measurement costs some time, but the future cost savings are greater.
-
-tags: project management, agile, dev ops
 
 ## Measurement: Is your Org behaving the way you want?
 
