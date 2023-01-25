@@ -1,125 +1,61 @@
-# Bringing Business and Agile Together
+# Helping Business Succeed with Agile Thinking
 
-TODO:
+## A Sadly Common Conflict
 
-- break this up over 3 posts. Tie in agile more directly into each step.
+Business and Agile mindsets do not always get along. We’ve seen too many software projects where developers burn out, the business loses money, and the end users do not get what they want. We’ve also been a part of a rare few unicorn projects that have found the balance. These projects were not only some of the most fun to work on, they were also the most successful in generating revenue. This is not a coincidence.
 
-There are at least 3 key factors that can help successfully bring business and agile together.
+How can leaders who are building word class software products find that balance on their projects? That’s going to be the subject of this post, which will hopefully be 1 of 3.
 
-- Choose a focus, and then **stay focused** for 1-3 months.
-- Suspiciously **measure** that choice with both outcome and output metrics.
-- Listen to the measurement data and **adapt** with an open mind to **try new things**.
+Perhaps one reason for the common conflict is that the average business is required to make big bets on yearly goals that will hopefully increase revenue while the average Agile team is overly focused on code and various sorts of quality. A second problem in bringing these two communities together is the problem of scale. As one well-functioning agile team turns into 5 or 20 teams, the game seems to change. I’ve seen many engineers complain that SAFe is just Waterfall. Yet I’ve seen projects fall into anarchy without it.
 
-The simple agile loop of Build, Measure, and Learn has been scaled to SAFe to help large businesses with many teams. But SAFe can be way more than you need. You already likely have OKRs or some other set of frameworks.
+We’ll look at the simple Agile loop of “build, measure, learn” at scale and give some practical measures so you know how well your business and agile mindsets complement each other. To run a successful business fluent, scaled agile software project, you must:
 
-In this article we will use some anecdotes to look at how we can apply the Build, Measure, and Learn principle in practical ways for companies trying to organize work across many teams.
-
-- [Choose a Focus and Stay Focused for Short Time Intervals](#choose-a-focus-and-stay-focused-for-short-time-intervals)
-  - [Staying focused with sub-goals and reiteration](#staying-focused-with-sub-goals-and-reiteration)
-- [Suspiciously Measure your Focus with Outcomes and Outputs](#suspiciously-measure-your-focus-with-outcomes-and-outputs)
-  - [Why suspicious?](#why-suspicious)
-  - [Potential ways to measure](#potential-ways-to-measure)
-  - [The criticality of buy-in](#the-criticality-of-buy-in)
-- [Keep an Open Mind and Listen to the Data](#keep-an-open-mind-and-listen-to-the-data)
-  - [Don't ignore the data](#dont-ignore-the-data)
-  - [Update your output measures until you get it right](#update-your-output-measures-until-you-get-it-right)
-- [Conclusion](#conclusion)
+- Choose a focus, and then **stay focused** for 1-3 months (build - this post).
+- Suspiciously **measure** your choice with both outcome and output metrics (measure).
+- Listen to the measurement data and **adapt** with an open mind to **try new things** (learn).
 
 ## Choose a Focus and Stay Focused for Short Time Intervals
 
-The company had established their yearly Business Goals and Objectives. 5 bold statements that we all agreed to and, more-or-less, we agreed on how to build them. However, by the end of January the 1:1 with my manager was all too familiar. "Oh, and we need to build more infrastructure. Oh, and we need to build better QA. Oh, and we need to think about building a couple of new dashboards." These were all good ideas, but they didn't directly roll up to the business goals. Worse yet, while the business was focused on features, the engineering was focused on quality as a distinctly separate goal. Unsurprisingly, when the deadlines approached, quality was deemed out of scope and many of the engineers efforts were shelved, half implemented.
+The company I was working for had established their yearly Business Goals and Objectives. They published 5 bold statements that we were familiar with and we knew roughly how to build them. However, by the end of January, the one on one with my manager was all too familiar. "Oh, and we need to build more infrastructure. Oh, and we need to build better QA. Oh, and we need to think about building a couple of new dashboards." These were all good ideas, but it wasn’t clear how they rolled up to the business goals. Worse yet, while the business leaders were focused on delivering features, the engineering department was focused on quality as a distinctly separate goal. Unsurprisingly, when the deadlines approached, quality was deemed out of scope and many of the engineering efforts were shelved, half implemented.
 
-Of all the things that could be said about this reoccurring scene, think about the impact of focus. The worst thing we can do as leaders and managers is continue to say "just one more thing". We're not being clever like Columbo, we're scope creeping like Table 5 who orders something else every time we refill their water. Perhaps one reason we do this is that while we wait in our ivory towers for our teams to accomplish the goals, we dream of new futures. Or perhaps, in an attempt to help our teams we do our own solutioning and excitedly share it with the team, hoping it will inspire them. No matter how well intentioned it's still just a distraction.
+### **Add focus by subtracting distractions**
 
-### Staying focused with sub-goals and reiteration
+Think about the impact of the lack of focus. The engineering manager did not make the wrong choice per se, they made too many choices. The time spent on QA was not just shelved, it was wasted time. That additional time could have been spent on feature delivery. Ideally, we deliver each feature with an agreed upon level of quality. “Make quality a requirements problem” as the Pragmatic Programmer says ([tip number 8](https://pragprog.com/tips/)). If QA needs special focus in our organization it should be its own focus area for an interval. In the end, it’s always a tradeoff of short term value and long term sustainability. The good news is, we get to make the tradeoff.
 
-We leaders must see our jobs as enabling our teams. Instead of the above approach, we should:
+As [Franklin Covey says](https://resources.franklincovey.com/the-4-disciplines-of-execution/discipline-1-focus-on-the-wildly-important), we need to focus on the wildly important. The worst thing we can do as leaders is continue to say "just one more thing". We're not being clever like Columbo, we're scope creeping like table 5 who orders something else every time we refill their water. Many leaders got to their position by being some combination of a visionary and a thorough practitioner. Which means they’re always thinking of new things. Not to mention they’re always getting new things thrown at them from external sources. No matter how well intentioned these ideas are, to the team receiving them, it's more distracting than helpful.
 
-1. Reiterate and clarify the vision.
-2. Ask your teams what's slowing them down and do something about it.
-3. Even harder, try just doing what they ask you to do.
+### **Staying focused with sub-goals and reiteration**
 
-If you follow PI Planning, keep that Business Context and Architecture sections crisp and clear. If you are a start-up, enter every weekly planning meeting with a 2 min re-iteration of the vision and goals. In both contexts, re-iterate the vision or goals in every 1:1.
+We leaders must see our jobs as enabling our teams and keeping them focused. Instead of the above approach, we should:
 
-Every new idea you have, write it down on an ideas board that your leadership team can refine later. Not right when you have the idea.Consider making this a backlog that is regularly refined.
+1. Reiterate, connect, and clarify the goals.
+2. Break goals down into sub-goals.
+3. Get continuous feedback from the team and take action to enable them to achieve the goals.
 
-"But, Dan, we have yearly goals! We can't spend the whole year reiterating!" Yep. Whatever leadership level you are at, your job is to break down those goals into sub-goals that can be evaluated high quicker intervals. Once per quarter is a really good starting point. This should be incrementally broken down at each level and re-iterated at each level so that the engineer understands how this line of code he's struggling with fits into the overall goal.
-Yes, this takes work, but you have all that time in your ivory tower, right? It's amazing to me how we can we always find time to spend on the wrong things, while the right things go unloved.
+Here’s a few examples of what that can look like. If you follow PI Planning, keep the Business Context and Architecture sections crisp and clear. If you are a start-up, enter every weekly planning meeting with a 2 min re-iteration of the goals and key results. Re-iterate the goals in every 1:1. In every case, connect the weekly activities of what your team is doing with the goals.
 
-The job doesn't stop at staying focused though. If we're evaluating our goals every 3 months, we must have a mechanism to know when to pivot or persevere.
+But what about all those great ideas you’re having while the team is working on the goals? Write it down. Create an ideas board that your leadership team can refine later; not right when you have the idea. Consider capturing these ideas in their own backlog that is regularly refined by the appropriate group of folks.
 
-## Suspiciously Measure your Focus with Outcomes and Outputs
+You might be protesting, "But, Dan, we have yearly goals! We can't spend the whole year reiterating!" Yep, absolutely true. In whatever leadership level you are, your job is to break down those goals into sub-goals that can be evaluated for their effectiveness at quicker intervals. Once per quarter is a really good starting point. These sub-goals should be reiterated at each level so that the most junior engineer understands how the line of code he's struggling with fits into the yearly company goal. This often takes a surprising amount of work. Google’s [OKR system](https://www.whatmatters.com/resources/google-okr-playbook) is set up to create this connectivity from the top of your organization to the bottom.
 
-The number on the powerpoint was big and red: 3 per sprint. I was reading our organizations Change Failure Rate (CFR). This was measuring across roughly 6 teams, 24 services, and a hundred code changes per sprint. This might not look so bad. In fact, the leaders reading the numbers would often pat everyone on the back and say, "We're ahead of the industry standard, go team!"
-However, under another measure, we were only releasing customer facing features every 3 or 4 months. Each of which often had at least 1 critical bug. When we dug further into CFR, we realized that this was actually combining Deploy Frequency and CFR. Further, we did not account for opposing metrics like Feature Lead Time.
+### **The business benefits of Iterative focus**
 
-The good news is that we were basing our measurement strategy on the time tested DORA metrics. The bad news is that we didn't have the right calculations and we weren't tracking all of them. Only after napkin-mathing each of the metrics over the past 6 months did we realize huge areas of improvement to our operational performance.
-And, in fact, we were below industry average.
+So far, I’ve primarily used the term Goals. Goals, Objectives, or Focus Areas should all refer to the same basic idea, but I’m going to switch to using the term “focus area” as I believe it communicates the message slightly better. When we choose a focus area and put an evaluation time on it, we are not creating a death march deadline. We will discuss more about this in later posts. For now, I’ll leave you with this: after 3 months of a focus area you may realize you’re halfway to your goal, but you’ve seen real progress. In that case, you continue with the same focus.
 
-### Why suspicious?
+But what is the CEO or Board of Directors to do with this? They are in the mindset of “Go/No Go” decisions and budgets that must prove definitive returns on investment. Well, with this agile, iterative approach you now have more options than before. Now you can show the paper-trail of sub goals that yielded results, or learnings and resulting educated pivots. Additionally, with a system like OKRs you have data for all the sub-goals that can be drawn on to show improvements, not just one yearly number that tries to rule them all.
 
-By the time we've chosen a focus area, it's often been through the Mad Max Thunderdome and emerged as a champion worth worshiping. We are emotionally attached. And after all, the decision team did agree it was the most important focus area. We barely feel the need to measure, or to be suspicious. This is no excuse. We must have a right measure for two reasons.
+This approach builds trust through transparency. Not just with your boss but with all your subordinates as well.
 
-- To prove it's right focus.
-- To show the impact of the focus.
+### **Iterative focus is agile at its finest**
 
-What metrics to measure is always tough. And yes, of course, as soon as you being to measure some folks will game the system. But that's not a metrics problem, that's a culture problem.
-OKRs and DORA metrics are both focused on what they call "outcome" metrics. These are critical to establish so that you know the impact. We shouldn't stop here. If you're doing OKRs every quarter, then do what is called "output" metrics weekly or monthly.
-It's worth noting the Rule of 3. You must try something at least 3 times in order to know if it's working. Don't take one measurement and pivot right away. After 3 solid attempts, pivot right away - or fix your measurement.
+We are simply adding discipline to our scale. At the lowest levels of software project execution, kanban applies focus at the story boundary: once the story is accepted you cannot change it. In scrum, it’s at the sprint boundary. Even at this low level, it’s hard to implement purely. How much more at scale? When we have teams of tens or hundreds of developers, a new product offering may require changes to our core platform, our data team, and three different user facing apps. To live into the [Agile manifesto’s principle](https://agilemanifesto.org/principles.html) that “highest priority is to satisfy the customer through early and continuous delivery of valuable software” simply takes more time and more support structure at scale. The boundary of focus might change, but the requirement of disciplined focus does not.
 
-### Potential ways to measure
+The final and perhaps most important way that choosing a business focus is merged with the agile world, is that we make it a team activity. We should bring our engineering, marketing, and other stakeholder groups into those focus area conversations. We should solicit and include their ideas and allow time for clarifying why our bosses have chosen this particular goal.
 
-One thing I want to make clear: To measure something often requires cost. You often have to instrument your processes to get the measures you want. Sometimes that's a spreadsheet that is updated on a cadence. Sometimes it's a software integration of systems. In either case, plan on spending some money to get the accurate measures you need to run the business.
+This is one reason I actually like [PI Planning](https://www.scaledagileframework.com/pi-planning) when it’s done correctly. Part of doing it correctly, means highly tailoring it to your environment. Everyone, even senior leadership, are in the room. Everyone has a seat at the table. Granted, most of the engineers are hidden behind their computer screens. But at least they have a seat and a say in what decisions are made and how the larger group collaborates on efforts. On one of my projects, we had about 8 teams on a cycle of 1 day of PI Planning followed by three 2-week sprints. The balance of focus, collaboration, and autonomy was one of the best I’d ever seen.
 
-Let's go back to the DORA metrics example. When measuring success (outcomes) you want to measure these two opposing metrics of delivering fast, Change Lead Time, and accurate, Change Failure Rate.
-To measure these, you'll need plugins in Jira or GitHub to show you how long it takes to move a feature from Started to Done. Thankfully your organization is full of intelligent engineers, utilize them to build the tooling or suggest a plugin.
-But then, you have certain behaviors (outputs) that you expect to move those numbers. For example, more unit tests should result in a decrease in CFR. But... does it? Well, you have to measure that too. Setup Coveralls to measure code coverage, and run it for 3 sprints, or 3 deploys, or whatever your cycle is, in order to see the impact.
+## **Conclusion**
 
-### The criticality of buy-in
+While we’ve seen the value of focus and some practical ways to improve it, the job doesn't stop at staying focused. If we're evaluating our objectives every 1 to 3 months, we must have a measurement to know when to pivot or persevere. That will be the subject of the next post.
 
-In order to measure effectively, you need two kinds of buy in. From your leadership and your teams.
-
-To get leadership buy in, you have to first finish the conversation around focus. Measure what they need measuring, not what you need measure so you can make a point. You also need to give them a seat at the table. Ensure they understand the metrics you are trying to measure and how they can use those metrics.
-If it's successful they can tout them to their stakeholders. If the  metrics show failure, they can tout their ability to have visibility and to adapt quickly. This helps your organization and stay focused on the 20% of work that yields the 80% of value.
-
-To get the team's buy in, again, give them a seat at the table. Solicit their feedback for better or different measures. In the end, ensure they understand how they'll be measured and remind them it's not a measure of performance. We're all in the same game, learning together.
-Once teams buy in, you can gamify it. Create a leaderboard. Even if it's just a local whiteboard, teams do better with some healthy competition.
-
-So now you've got the focus and you've got the measurements. A month goes by and you start to see the numbers. Great! But not great, the number's do look good. What do you do?
-
-## Keep an Open Mind and Listen to the Data
-
-// insert Nick Cage on his back.
-
-During my first week on the new project, a technical lead showed me a system diagram. Roughly 15 services were called out. It was their plan to break their monolith into microservices. It was well thought out and relevant. There was only one problem. This picture was year old and only a few of the services had actually been created. It got worse. A year after that meeting, I was still around and while a few more services were created, we didn't seem to be going any faster as an organization. In fact, we had traded the monolith deployment for a distributed-monolithic deployment. Microservices could not be easily deployed on their own.
-
-### Don't ignore the data
-
-The focus and measures of the organization were clear enough.
-
-1. Focus: Deliver at Scale
-2. Outcome Metric: Teams can deliver features quickly and independently.
-3. Output Metric: Number of new services created.
-
-However, after just a few months, and a few microservices were created the data results were in. We weren't moving any faster. Cycle times were the same. The cost and complexity to deploy had risen. Harder bugs we're cropping up.
-
-What we should have done, is refocused a sub-goal to find out what the issue was. In our case, we needed better practices and tooling around creating these microservices. The first one (ok, the first three - rule of 3 right?), should have been measured against the outcome measure and we should have continuously updated the output measures until we got the gains we wanted. That's a little ambiguous, let's try to break it down.
-
-### Update your output measures until you get it right
-
-Instead of focusing on an easy number like number of microservices created. We could have explored:
-
-1. Creating new processes for a microservice first approach.
-2. Using technical practices to decouple services (ex. api versioning and feature flags)
-3. Exploring tooling to help coordinate environment health. Managing deploys and rollbacks.
-4. Ditched microservices and explored the modu-lith approach.
-
-This is why is so necessary for every organization of every stage of maturity to embrace the scientific approach in everything they do. They must treat every assertion as an assumption to be proved. This does not mean I am advocating for a bunch of bitter, skeptical folks - we have enough of those already, don't we? No, it means be curious, ask the 5 whys to understand where assumptions are coming from so you can ensure you're removing all bias from the equation.
-
-Side Note: There are times when your data is wrong. Be like a data scientist. Make it the highest priority to fix your measures.
-
-## Conclusion
-
-Stay focused for long enough for your measures to provide data. Get your whole team together and brainstorm or celebrate with the data you get. This quick tuning of your accuracy either at the business level or the project level will result in amazing speed at build the right thing.
-
-At [Jemini.io](https://jemini.io), we're dedicated to helping our client succeed. Employing vertically-connective, team-driven activities like this helps organizations keep their competitive advantage. Reach out to find out more about how we can help you're organization succeed!
+At [Jemini.io](http://jemini.io/), we’re dedicated to helping our customers succeed. Employing a strategy of iterative focus helps your business quickly adapt to and stay focused on the highest value activities. Reach out to find out more about how we can help your business!
